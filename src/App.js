@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import {Table, Button, Container, Modal, ModalBody, ModalHeader, FormGroup, ModalFooters} from 'reactstrap';
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          QUE COSA<code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
